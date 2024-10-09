@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuelita Biblica Canning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Inline&family=Henny+Penny&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Inline&family=Henny+Penny&family=Modak&display=swap" rel="stylesheet">
+</head>
+
+<body >
+    <header>
+        <ul class="pestanas">
+            <img src="imagenes/logo.png" alt="logo">
+            <li><a href="#formulario">ESCRÍBANOS</a></li>
+            <li><a href="index2.html">ACTIVIDADES</a></li>
+            <li><a href="index2.html">SOBRE NOSOTROS</a></li>
+        </ul>
+    </header>
+
+    <div class="contenedor">
+        <h1>¡Bienvenidos a la Escuelita!</h1>
+        <div class="detalle">
+            <p>✨ Jesús siempre mostró un amor especial por los niños.❤️ En su vida, demostró una y otra vez cuánto valora a los más pequeños, y nos enseñó que el Reino de Dios les pertenece. Nosotros, siguiendo su ejemplo, queremos ofrecer un espacio donde cada niño pueda sentir ese amor, crecer en su fe y compartir momentos llenos de alegría y amistad.😊<br>
+                👧👦Nuestra escuelita es un lugar donde los niños no solo aprenden sobre Jesús y sus enseñanzas, sino que también tienen la oportunidad de vivir esos valores en comunidad.❤️<br>
+                🎨A través de actividades divertidas, juegos, canciones y enseñanzas adaptadas a su edad, los niños pueden conocer más sobre la vida de Jesús, su amor por ellos y cómo pueden seguir sus pasos en su vida diaria. <br>
+                💒¡Ven y descubre lo maravilloso que es ser parte de esta comunidad, donde Jesús es el centro y los niños son el tesoro más preciado!🌟
+            </p>
+        </div>
+
+        <div id="frase">
+            <p id="frase1">AQUÍ VAMOS A APRENDER DE JESÚS!</p>
+            <p id="frase2" style="display: none;">AQUÍ VAMOS A DIVERTIRNOS!</p>
+            <p id="frase3" style="display: none;">AQUÍ VAMOS A PASARLA BIEN! </p>
+        </div>
+    </div>
+
+    <div class="fotoEsc">
+       <div><p>En el mes de octubre, los niños de la escuelita dominical iluminaron la Santa Cena con sus voces 
+        angelicales. Mientras entonaban cánticos sagrados, sus melodías se convirtieron en dulces ofrendas que elevaron 
+        la celebración a un plano celestial. En este festín espiritual, la pureza de sus corazones resonó como un coro de 
+        esperanza, tejiendo la magia de la fe en cada nota y creando recuerdos eternos en el banquete divino de la Santa 
+        Cena.</p></div>
+        <div class="imagenNinos">
+            <img src="imagenes/domingo.jpeg" alt="finde de Santa Cena">
+        </div>
+    </div>
+
+    <div class="formasLocas">
+        <h1>Descarga la ficha completa de la creación. Génesis 1:1.</h1>
+        <h3>En el principio creó Dios los cielos y la tierra... </h3>
+        <a href="https://drive.google.com/drive/folders/1mG6muvEU9d_kmuIEd2tsegaGEPIjQakN?usp=drive_link" download="La Creación"><button>Descargar Archivo</button></a>
+        
+    </div>
+
+    <h1>Imagénes</h1>
+    <div class="galeria">
+        <img src="imagenes/actividad juan.jpeg" alt="foto ensayo">
+        <img src="imagenes/perdido.jpeg" alt="niños pintando">
+        <img src="imagenes/pesca.jpeg" alt="la pesca milagrosa">
+        <img src="imagenes/rey.jpeg" alt="foto niños">
+        <img src="imagenes/agua en vino.jpeg" alt="agua en vino">
+        <img src="imagenes/dios amo al mundo.jpeg" alt="foto">
+        <img src="imagenes/nacimiento de juan.jpeg" alt="">
+        <img src="imagenes/niños pintando.jpeg" alt="">
+        <img src="imagenes/la luz del mundo.jpeg" alt="">
+    </div>
+
+    <div class="formasLocas">
+        <h1>Escríbenos</h1>
+        <div class="formulario" id="formulario">
+            <form action="https://formsubmit.co/vall93smp@gmail.com" method="POST">
+                <h2>Quiero saber más</h2>
+                <div class="grupo-input">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+                    <label for="phone">Telefono</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="Correo electrónico">
+                    <label for="mensaje">Escriba Aqui</label>
+                    <textarea name="mensaje" cols="30" rows="5" placeholder="Quiero saber más"></textarea>
+                    <input type="submit" class="btn" value="Enviar">
+                </div> 
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+       
+        <div class="reuniones">
+            <h3>Reuniones Generales</h3>
+            <p>Miercoles, Sabados y Domingos 19hs.</p>
+            <h3>Jovenes</h3>
+            <p>Lunes y Juves 20hs</p>
+            <h3>Escuela Biblica</h3>
+            <p>Domingo 17hs</p>
+        </div>
+        <br><br>
+        <div>
+            <p>&copy; <span id="year"></span> Escuelita Bíblica Canning</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

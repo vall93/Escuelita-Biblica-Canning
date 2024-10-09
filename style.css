@@ -1,0 +1,347 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:block;
+    justify-content:center;
+    align-items: center;
+ }
+    
+
+/*estilos para las pestañas*/
+.pestanas {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-color: salmon;
+}
+.pestanas img{
+   
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+.pestanas li {
+    float: right;
+    margin-right: 20px; 
+}
+.pestanas img {
+    margin-right: auto; /* Mueve el logo al lado derecho */
+}
+
+.pestanas a {
+    font-size: 20px;
+    font-family: 'Black Ops One', system-ui;
+    font-family: 'Bungee Inline', sans-serif;
+    font-family: 'Henny Penny', system-ui;
+    color: rgb(212, 207, 200);
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+.pestanas a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.detalle p{
+    color: #1e201e;
+    font-size: 25px;
+    padding: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+/*estilo para la bienvenida*/
+.contenedor{
+    background-color: yellowgreen;
+    margin: 20px;
+    padding: 10px;
+}
+.contenedor h1{ 
+    color: black;
+    font-size: 45px;
+    font-family: 'Black Ops One', system-ui;
+    font-family: 'Bungee Inline', sans-serif;
+    text-align: center;
+}
+/*estilo frases*/
+#frase{
+    font-size: 60px;
+    font-family: 'Black Ops One', system-ui;
+    font-family: 'Bungee Inline', sans-serif;
+    font-family: 'Henny Penny', system-ui;
+    font-family: 'Modak', system-ui;
+    color:rgb(212, 23, 102);
+    text-align: center;
+}
+
+/*estilo para la foto*/
+.fotoEsc {
+    display: flex;
+    align-items: center;
+    background-color:salmon;
+    padding: 20px;
+    margin: 20px;
+}
+
+.fotoEsc p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(99, 87, 79);
+}
+
+.imagenNinos {
+    margin-left: 20px; /* Ajusta el margen entre el texto y la imagen */
+}
+
+.imagenNinos img {
+    max-width: 80%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+}
+
+/*colores para mis fondos*/
+.formasLocas:nth-child(odd) {
+    background-color: salmon; /* Color del fondo para las secciones impares */
+    
+    text-align: center;
+    transform: skewY(-1deg); /* Ajusta el ángulo*/
+}
+  
+.formasLocas:nth-child(even) {
+    background-color:yellowgreen; /* Color del fondo para las secciones pares */
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    transform: skewY(1deg); 
+}
+
+.formasLocas button {
+    background-color:tomato;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formasLocas button:hover {
+    background-color: #45a049;
+}
+
+.formasLocas h1{
+    text-align: center;
+    color: gray;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.formasLocas h3{
+    color: #333;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formasLocas{
+    margin: 20px;
+    padding: 10px;
+}
+
+.galeria{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px; 
+}
+
+h1{
+    text-align: center;
+    color: gray;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos para formulario */
+.formulario {
+    width: 80%;
+    max-width: 400px; /* Puedes ajustar este valor según tus necesidades */
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:rgba(223, 22, 230, 0.726);
+}
+
+.formulario h2 {
+    text-align: center;
+}
+
+.grupo-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-input label {
+    margin-bottom: 5px;
+}
+
+.grupo-input input,
+.grupo-input textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color:salmon;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:pink
+}
+
+/*estilo html2*/
+body{
+    background-color: rgb(245, 255, 159);
+}
+.mision h1{
+    margin: 0 auto; /* Centra el <div> horizontalmente */
+    padding: 20px; /* Agrega espaciado interno alrededor del contenido */
+    max-width: 800px; /* Limita el ancho máximo del <div> */
+    color: teal;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Black Ops One', system-ui;
+}
+
+.mision p{
+    color: teal;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Rubik Broken Fax', system-ui;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}   
+
+/*estilos para el pie de pagina*/
+.footer{
+    background-color: yellowgreen;
+    padding: 50px;
+    text-align: center;
+}
+.footer p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #a0a0a0;
+    font-size: 20px;
+}
+
+.reuniones p{
+    text-align: center;
+    color:whitesmoke;
+    font-size: 15px;
+}
+.reuniones h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    font-size: 20px ;
+}
+
+/* Estilos para pantallas más pequeñas (tablets y móviles) */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    .pestanas {
+        flex-direction: column; /* Cambia a una columna en lugar de fila */
+        align-items: center;
+    }
+
+    .pestanas img {
+        width: 150px; /* Reduce el tamaño del logo */
+        height: 150px;
+    }
+
+    .pestanas li {
+        margin-right: 0; /* Elimina el margen derecho */
+        margin-bottom: 10px; /* Añade un poco de espacio entre los enlaces */
+    }
+
+    /* Ajustar el contenedor principal */
+    .contenedor {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .contenedor h1 {
+        font-size: 30px; /* Reduce el tamaño del título */
+    }
+
+    .detalle p {
+        font-size: 18px; /* Reduce el tamaño del texto */
+    }
+
+    #frase {
+        font-size: 40px; /* Reduce el tamaño de las frases */
+    }
+
+    /* Ajustar la galería de imágenes */
+    .galeria {
+        grid-template-columns: repeat(3, 1fr); /* Muestra 2 imágenes por fila */
+        gap: 10px; /* Reduce el espacio entre imágenes */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .pestanas img {
+        width: 100px; /* Reduce aún más el tamaño del logo */
+        height: 100px;
+    }
+
+    .pestanas a {
+        font-size: 16px; /* Reduce el tamaño de los enlaces */
+    }
+
+    .contenedor h1 {
+        font-size: 24px; /* Reduce el tamaño del título */
+    }
+
+    .detalle p {
+        font-size: 16px; /* Reduce el tamaño del texto */
+    }
+
+    #frase {
+        font-size: 30px; /* Reduce el tamaño de las frases */
+    }
+
+    .formasLocas h1 {
+        font-size: 24px; /* Reduce el tamaño de los títulos */
+    }
+
+    .formasLocas h3 {
+        font-size: 16px; /* Reduce el tamaño de los subtítulos */
+    }
+}
